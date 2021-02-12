@@ -1,0 +1,22 @@
+{
+  "coc.preferences.currentFunctionSymbolAutoUpdate": true,
+  "coc.preferences.colorSupport": true,
+  "diagnostic.virtualText": true,
+  "suggest.triggerAfterInsertEnter": true,
+  "highlight.colors.enable": true,
+
+  "elixir.pathToElixirLS":"~/.config/nvim/plugged/.elixir-ls/release/language_server.sh",
+  "elixir.enable": true,
+  "elixirLS.mixTarget": "test",
+  "elixirLS.mixEnv": "dev",
+  "elixirLS.fetchDeps": true,
+
+  "languageserver": {
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
+    }
+  }
+}
